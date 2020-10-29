@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qiscus.mqtt:client:1.1.1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qiscus.mqtt/client/1.1.1/4a01ab5a826d8a24bbf32fde14d03f15ab03a96/client-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qiscus.mqtt/client/1.1.1/cab57b63e968469d470baf3c8455ba62c541be1/client-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

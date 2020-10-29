@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qiscus.sdk:chat-core:1.3.11@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1eba2bd818ede4bc0030ccb8c550313a/jetified-chat-core-1.3.11/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1eba2bd818ede4bc0030ccb8c550313a/jetified-chat-core-1.3.11/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1eba2bd818ede4bc0030ccb8c550313a/jetified-chat-core-1.3.11/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qiscus.sdk/chat-core/1.3.11/d685dd15a1974a9fb3f5b09ee83e9ca8322503e4/chat-core-1.3.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qiscus.mqtt:android:1.1.1-q1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18bed4d7affbaa3d190938184fe282ae/jetified-android-1.1.1-q1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18bed4d7affbaa3d190938184fe282ae/jetified-android-1.1.1-q1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18bed4d7affbaa3d190938184fe282ae/jetified-android-1.1.1-q1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qiscus.mqtt/android/1.1.1-q1/27b53cbbcd23050e359b1cb4b96b38878d732363/android-1.1.1-q1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qiscus.mqtt/android/1.1.1-q1/176764969d0ae2a3c02960affd40132580bddf78/android-1.1.1-q1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

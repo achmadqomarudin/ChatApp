@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vanniktech:emoji-one:0.5.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e0215204e9e77e83afd33f51d9a0f7b/jetified-emoji-one-0.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e0215204e9e77e83afd33f51d9a0f7b/jetified-emoji-one-0.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e0215204e9e77e83afd33f51d9a0f7b/jetified-emoji-one-0.5.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/emoji-one/0.5.0/5fa9f433897865311f7cecac45cebef7b58db26f/emoji-one-0.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/emoji-one/0.5.0/826a3da4947eec1d6305464bc0564f711fdd697b/emoji-one-0.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

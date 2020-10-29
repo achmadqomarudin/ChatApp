@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qiscus.utils:manggil:1.0.1-without-emoji@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd49401f9c0a90f05cf72559e1d8d6d0/jetified-manggil-1.0.1-without-emoji/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd49401f9c0a90f05cf72559e1d8d6d0/jetified-manggil-1.0.1-without-emoji/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd49401f9c0a90f05cf72559e1d8d6d0/jetified-manggil-1.0.1-without-emoji/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qiscus.utils/manggil/1.0.1-without-emoji/7c9c1a09d82328a237ddba6162686ea170f48f07/manggil-1.0.1-without-emoji-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.chatapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_chat"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_chat"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="m">
+        <activity android:name=".ui.EditRoomNameActivity" />
+        <activity android:name=".ui.RoomInfoActivity" />
+        <activity android:name=".ui.EditNameActivity" />
+        <activity android:name=".ui.ProfileActivity" />
+        <activity android:name=".ui.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.HomeActivity" />
+        <activity
+            android:name=".ui.ContactActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".ui.CreateGroupActivity"
+            android:noHistory="true" />
+        <activity android:name=".ui.ChatRoomActivity" />
+        <activity android:name=".ui.QiscusSendPhotoConfirmationActivity" />
+        <activity android:name=".ui.GroupChatRoomActivity" />
+        <activity android:name=".ui.groupchatcreation.GroupChatCreationActivity" />
+        <activity android:name=".ui.addmember.AddGroupMemberActivity" />
+
+        <receiver
+            android:name=".service.NotificationClickReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.qiscus.OPEN_COMMENT_PN" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.AppFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.qiscus.sdk.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/qiscus_provider_paths" />
+        </provider>
+    </application>
+
+</manifest>
